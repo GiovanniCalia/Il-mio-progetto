@@ -1,0 +1,75 @@
+body{
+background-image: url(background.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.contenitore{
+  width: 800px;
+  height: 600px;
+  background-color: black;
+  background: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  border-radius: 2%;
+  margin-top: 20px;
+}
+
+header > img{
+ width: 180px;
+ height: auto;
+ padding-left: 300px;
+ padding-top: 10%;
+}
+
+div > strong{
+  font-family: "ubuntu", sans-serif;
+}
+
+header > div{
+  text-align: center;
+  font-size: 20px;
+  font-family: "ubuntu", sans-serif;
+  color: #00e000;
+}
+
+section > div{
+  color: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.rettangolo{
+  height: 30px;
+}
+
+.verde-grande{
+  width: 700px;
+  margin: auto;
+  color: #00e000;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.giallo{
+  width: 250px;
+  background-color: orange;
+}
+
+.verde-piccolo{
+  width: 450px;
+}
+
+.rosso{
+  width: 150px;
+  background-color: red;
+}
+
+.giallo, .verde-piccolo, .rosso{
+  border-radius: 5px;
+}
+
+.verde-grande, .verde-piccolo{
+  background-color: #00e000;
+}
